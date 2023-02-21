@@ -1,0 +1,53 @@
+*{
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-color: beige;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{font-family: Helvetica, sans-serif;}
+
+header > h1{
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: red;
+    font-family: Helvetica, sans-serif;
+}
+
+header > nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+/* main stage */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+main > h2{
+    color: purple;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+}
+
+main > h3{
+    font-family: Helvetica, sans-serif;
+    color: rgb(143, 143, 4);
+}
